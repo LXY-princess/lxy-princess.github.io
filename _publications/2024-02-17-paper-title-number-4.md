@@ -1,12 +1,12 @@
 ---
-title: "Paper Title Number 4"
+title: "RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'Root cause analysis, Protocols, 5G mobile communication, Machine learning, Fuzzing, Information retrieval, Real-time systems'
 date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+venue: '2024 IEEE 21st Consumer Communications \& Networking Conference (CCNC)'
+paperurl: 'https://ieeexplore.ieee.org/document/10454824'
 citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 
