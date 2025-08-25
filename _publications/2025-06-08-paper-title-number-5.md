@@ -2,7 +2,7 @@
 title: "QRNG-DDPM: Enhancing Diffusion Models Through Fitting Mixture Noise with Quantum Random Number"
 collection: publications
 category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
+permalink: /publication/2025-06-08-paper-title-number-5
 excerpt: 'Quantum computing, Amplitude embedding, Quantum attention network'
 date: 2024-02-17
 venue: '2024 IEEE International Conference on Quantum Computing and Engineering (QCE)'
