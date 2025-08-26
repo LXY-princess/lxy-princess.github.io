@@ -2,7 +2,7 @@
 title: "Quantum Squeeze-and-Excitation Networks"
 collection: publications
 category: conferences
-permalink: /publication/2024-09-15-quantum-squeeze
+permalink: /publication/2024-09-15-conference-quantum-squeeze
 excerpt: 'Keywords: Quantum computing, Amplitude embedding, Quantum attention network'
 date: 2024-09-15
 venue: '2024 IEEE International Conference on Quantum Computing and Engineering (QCE)'
