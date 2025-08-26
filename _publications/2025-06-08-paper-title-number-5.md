@@ -3,7 +3,7 @@ title: "QRNG-DDPM: Enhancing Diffusion Models Through Fitting Mixture Noise with
 collection: publications
 category: conferences
 permalink: /publication/2025-06-08-paper-title-number-5
-excerpt: 'Quantum random number, Quantum artificial intelligence, Diffusion models, Gaussian mixture noise'
+excerpt: 'Keywords: Quantum random number, Quantum artificial intelligence, Diffusion models, Gaussian mixture noise'
 date: 2024-02-17
 venue: '2024 IEEE International Conference on Quantum Computing and Engineering (QCE)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10821107'
