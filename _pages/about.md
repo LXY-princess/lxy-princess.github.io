@@ -14,14 +14,24 @@ News!!!
 
 **2025**
 
-:tada: One paper accepted at IEEE Transactions on Aerospace and Electronic Systems (TAES)! (2025-Aug)
+:tada: One paper accepted at IEEE Transactions on Aerospace and Electronic Systems (TAES)! (2025-Aug-24)
 
-:tada: Two paper accepted at EE International Conference on Quantum Computing and Engineering (QCE25)! (2025-Aug)
+:tada: Two paper accepted at IEEE International Conference on Quantum Computing and Engineering (QCE-25)! (2025-Jul-21)
 
-:clap: Passed the qualify exam, I am a PhD Candidate now! (2025-Apr)
+:clap: Passed the qualify exam, I am a PhD Candidate now! (2025-Mar-12)
+
+:tada: One paper accepted at IEEE International Conference on Communications (ICC-25)! (2025-Jan-17)
 
 **2024**
+
+:tada: One paper accepted at AAAI Conference on Artificial Intelligence (AAAI-25)! (2024-Sep-12)
 
 :school: Joint Stevens Institute of Technology as a PhD student! (2024-Sep)
 
 :mortar_board: Graduated from Duke University! (2024-May)
+
+**2023**
+
+:school: Joint Stevens Institute of Technology as a Summer Research Intern! (2023-Jul)
+
+
