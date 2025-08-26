@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-04-11-conference-qsco-AAAI
 excerpt: ''
 date: 2025-04-11
-venue: 'The Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)'
+venue: 'The Thirty-Ninth Association for the Advancement of Artificial Intelligence (AAAI-25)'
 paperurl: 'https://ojs.aaai.org/index.php/AAAI/article/view/34190'
 citation: 'Peng, Y., Li, X., Liang, Z., & Wang, Y. (2025). Qsco: A Quantum Scoring Module for Open-Set Supervised Anomaly Detection. Proceedings of the AAAI Conference on Artificial Intelligence, 39(19), 19884-19894. https://doi.org/10.1609/aaai.v39i19.34190'
 ---
