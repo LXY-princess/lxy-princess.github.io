@@ -2,7 +2,7 @@
 title: "DEFT: A Novel Deep Framework for Fuzz Testing Performance Evaluation in NextG Vulnerability Detection"
 collection: publications
 category: manuscripts
-permalink: /publication/2023-10-20-deft
+permalink: /publication/2023-10-20-journal-deft
 excerpt: 'Keywords: 5G, CBOW, fuzz testing, log file, NextG, skip-gram, Word2Vec'
 date: 2023-10-20
 venue: 'IEEE Access '
