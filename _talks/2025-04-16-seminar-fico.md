@@ -9,4 +9,7 @@ location: "Hoboken, NJ, USA"
 ---
 
 Topic: FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing Vibration and 5G Communication for UAV Classification
-[](/images/2025-04-16-talk-seminar-1.jpg)[](/images/2025-04-16-talk-seminar-2.jpg)
+
+![](/images/2025-04-16-talk-seminar-1.jpg)
+
+![](/images/2025-04-16-talk-seminar-2.jpg)
