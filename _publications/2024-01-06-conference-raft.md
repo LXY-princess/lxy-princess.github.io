@@ -2,7 +2,7 @@
 title: "RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection"
 collection: publications
 category: conferences
-permalink: /publication/2024-01-06-raft
+permalink: /publication/2024-01-06-conference-raft
 excerpt: 'Keywords: 5G, CBOW, fuzz testing, root cause analysis, machine learning, vulnerability detection'
 date: 2024-01-06
 venue: 'IEEE 21st Consumer Communications & Networking Conference (CCNC)'
