@@ -2,7 +2,7 @@
 title: "Qsco: A Quantum Scoring Module for Open-Set Supervised Anomaly Detection"
 collection: publications
 category: conferences
-permalink: /publication/2025-04-11-qsco-AAAI
+permalink: /publication/2025-04-11-conference-qsco-AAAI
 excerpt: ''
 date: 2025-04-11
 venue: 'The Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI-25)'
