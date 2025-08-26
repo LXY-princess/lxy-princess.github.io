@@ -2,7 +2,7 @@
 title: "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
+permalink: /publication/2024-10-15-journal-hyq2
 excerpt: 'Keywords: NextG vulnerability detection, quantum computing, quantum neural networks (QNNs)'
 date: 2024-10-15
 venue: 'IEEE Transactions on Quantum Engineering'
