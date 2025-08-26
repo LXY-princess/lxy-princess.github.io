@@ -45,4 +45,18 @@ Talks
   
 Reviewer Service
 ======
-* Currently signed in to 43 different slack teams
+* Springer Nature Quantum Machine Intelligence (QMI), Aug 12, 2025
+* Asia and South Pacific Design Automation Conference (ASP-DAC), Jul 23, 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE-25), Jul 20, 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE-25), Jul 19, 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE-25), Jul 16, 2025
+* Elsevier Internet of Things, Jul 9, 2025
+* Springer Nature Quantum Machine Intelligence (QMI), June 4, 2025
+* Springer Nature Quantum Machine Intelligence (QMI), June 1, 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE-25), Mar 12, 2025
+* IEEE International Conference on Quantum Computing and Engineering (QCE-25), Mar 10, 2025
+* The 2025 International Conference on Computer-Aided Design (ICCAD-25), Mar 25, 2025
+* Elsevier Journal of Network and Computer Applications (JNCA), Mar 6, 2024
+* Elsevier Internet of Things, Jan 17, 2025
+* Elsevier Journal of Network and Computer Applications (JNCA), Dec 13, 2024
+
