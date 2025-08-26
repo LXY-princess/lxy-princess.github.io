@@ -11,36 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Engineering and Sience, Stevens Institute of Technology, Sep. 2024 - May 2029 (Expected)
+* M.S. in Electrical and Computer Enginnering, Duke University, Aug. 2022 - May 2024
+* B.S. in Engineering in Electronic Information Engineering, University of Electronic Science and Technology of China (joint degree), Sep. 2018 - Jul. 2022
+* B.S. in Engineering in Electronic Information Engineering, University of Glasgow (joint degree), Sep. 2018 - Jul. 2022
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Jan. 2024 - May. 2024: Teaching Assistant
+  * Duke University
+  * Duties includes: Deliver guest lectures, Develope and grade homework, Host office hours. 
+  * Supervisor: Professor Kishor Trivedi
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May. 2023 - Aug. 2023: Research Intern
+  * Stevens Institute of Technology
+  * Supervisor: Professor Ying Wang
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jan. 2021 - Apr. 2022: Research Assistant
+  * University of Electronic Science and Technology of China
+  * Supervisor: Professor Qi He
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
@@ -53,12 +43,6 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+Reviewer Service
 ======
 * Currently signed in to 43 different slack teams
