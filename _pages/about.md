@@ -14,7 +14,14 @@ News!!!
 
 **2025**
 
+:tada: One paper accepted at IEEE Transactions on Aerospace and Electronic Systems (TAES)! (2025-Aug)
+
+:tada: Two paper accepted at EE International Conference on Quantum Computing and Engineering (QCE25)! (2025-Aug)
+
+:clap: Passed the qualify exam, I am a PhD Candidate now! (2025-Apr)
 
 **2024**
 
-2024-May I graduated from Duke University!
+:school: Joint Stevens Institute of Technology as a PhD student! (2024-Sep)
+
+:mortar_board: Graduated from Duke University! (2024-May)
