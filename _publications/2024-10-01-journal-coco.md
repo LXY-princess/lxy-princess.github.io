@@ -7,7 +7,7 @@ excerpt: 'Keywords: Machine learning, Word2Vec, CBOW, NextG vulnerability detect
 date: 2024-10-01
 venue: 'IEEE Open Journal of the Communications Society'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10701039'
-citation: 'Y. Peng, X. Li, S. Arya and Y. Wang, "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications," in IEEE Open Journal of the Communications Society, vol. 5, pp. 6381-6403, 2024, doi: 10.1109/OJCOMS.2024.3471709.
+citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Arya and Y. Wang, "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications," in IEEE Open Journal of the Communications Society, vol. 5, pp. 6381-6403, 2024, doi: 10.1109/OJCOMS.2024.3471709.
 keywords: {Fuzzing;Security;5G mobile communication;Machine learning;Accuracy;Natural language processing;Scalability;Real-time systems;Internet of Things;Analytical models;Machine learning;Word2Vec;CBOW;NextG vulnerability detection;fuzz testing},'
 ---
 
