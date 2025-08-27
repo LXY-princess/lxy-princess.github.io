@@ -6,7 +6,7 @@ permalink: /publication/2025-01-17-conference-fico
 excerpt: 'Keywords: Fingerprinting, Learning-to-learn, Extreme Gradient Boosting, Logistic Regression, Meta-network'
 date: 2025-01-17
 venue: '2025 IEEE International Conference on Communications (ICC-25)'
-citation: 'X. Li, Y. Peng, and Y. Wang, Waiting for proceedings'
+citation: '<u><b>X. Li</b></u>, Y. Peng, and Y. Wang, Waiting for proceedings'
 ---
 
 Abstract: Unmanned Aerial Vehicles (UAVs) are widely utilized
