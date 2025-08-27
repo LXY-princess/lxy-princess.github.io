@@ -3,7 +3,7 @@ title: "SaFe: A Stacked Ensemble Fingerprinting Approach for UAV Classification 
 collection: publications
 category: manuscripts
 permalink: /publication/2025-08-24-journal-safe
-excerpt: 'Extreme Gradient Boosting, Fingerprinting, Logistic Regression, Mechanical Vibration, Meta-network, Stacked Ensemble Learning, Unmanned Aerial Vehicles'
+excerpt: 'Keywords: Extreme Gradient Boosting, Fingerprinting, Logistic Regression, Mechanical Vibration, Meta-network, Stacked Ensemble Learning, Unmanned Aerial Vehicles'
 date: 2025-08-24
 venue: 'EEE Transactions on Aerospace and Electronic Systems (TAES)'
 citation: 'X. Li, Y. Peng, and Y. Wang, Waiting for proceedings'
