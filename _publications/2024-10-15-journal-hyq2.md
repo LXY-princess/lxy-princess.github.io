@@ -7,7 +7,7 @@ excerpt: 'Keywords: NextG vulnerability detection, quantum computing, quantum ne
 date: 2024-10-15
 venue: 'IEEE Transactions on Quantum Engineering'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10716796'
-citation: 'Y. Peng, X. Li, Z. Liang and Y. Wang, "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection," in IEEE Transactions on Quantum Engineering, vol. 5, pp. 1-19, 2024, Art no. 3103819, doi: 10.1109/TQE.2024.3481280.
+citation: 'Y. Peng, <u><b>X. Li</b></u>, Z. Liang and Y. Wang, "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection," in IEEE Transactions on Quantum Engineering, vol. 5, pp. 1-19, 2024, Art no. 3103819, doi: 10.1109/TQE.2024.3481280.
 keywords: {Quantum computing;Quantum entanglement;Integrated circuit modeling;Data models;Computational modeling;Biological neural networks;5G mobile communication;Qubit;Neural networks;Neural networks;NextG vulnerability detection;quantum computing;quantum neural networks (QNNs)},'
 ---
 
