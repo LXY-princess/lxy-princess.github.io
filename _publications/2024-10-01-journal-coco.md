@@ -3,7 +3,7 @@ title: "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in 
 collection: publications
 category: manuscripts
 permalink: /publication/2024-10-01-journal-coco
-excerpt: 'Machine learning, Word2Vec, CBOW, NextG vulnerability detection, fuzz testing'
+excerpt: 'Keywords: Machine learning, Word2Vec, CBOW, NextG vulnerability detection, fuzz testing'
 date: 2024-10-01
 venue: 'IEEE Open Journal of the Communications Society'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10701039'
