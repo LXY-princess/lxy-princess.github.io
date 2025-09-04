@@ -7,4 +7,4 @@ venue: "HCVS-Net: Hybrid Continuous-Variable Squeezing Network"
 date: 2025-09-01
 location: "Albuquerque Convention Center, New Mexico, USA"
 ---
-<img src="../images/2025-04-16-talk-seminar-1.jpg" alt="seminar-fico-1" width="380"> <img src="../images/2025-04-16-talk-seminar-2.jpg" alt="seminar-fico-2" width="450">
+<img src="../images/2025-09-01-qce-qml-1.HEIC" alt="seminar-fico-1" width="380">
