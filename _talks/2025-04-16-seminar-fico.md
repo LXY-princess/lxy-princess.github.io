@@ -7,7 +7,7 @@ venue: "FiCo: A Fingerprinting-based Two-step Learning-to-learn Approach Combing
 date: 2025-04-16
 location: "Stevens Institute of Technology, Hoboken, NJ, USA"
 ---
-<img src="../images/2025-04-16-talk-seminar-1.jpg" alt="seminar-fico-1" width="380"> <img src="../images/2025-04-16-talk-seminar-2.jpg" alt="seminar-fico-2" width="450">
+<img src="../images/2025-04-16-talk-seminar-1.jpg" alt="seminar-fico-1" width="250"> <img src="../images/2025-04-16-talk-seminar-2.jpg" alt="seminar-fico-2" width="300">
 
 
 
