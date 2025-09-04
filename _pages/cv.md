@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Engineering and Sience, Stevens Institute of Technology, Sep. 2024 - May 2029 (Expected)
+* Ph.D in Engineering and Science, Stevens Institute of Technology, Sep. 2024 - May 2029 (Expected)
 * M.S. in Electrical and Computer Enginnering, Duke University, Aug. 2022 - May 2024
 * B.S. in Engineering in Electronic Information Engineering, University of Electronic Science and Technology of China (joint degree), Sep. 2018 - Jul. 2022
 * B.S. in Engineering in Electronic Information Engineering, University of Glasgow (joint degree), Sep. 2018 - Jul. 2022
@@ -43,8 +43,9 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Reviewer Service
+Service
 ======
+* Session Chair, IEEE International Conference on Quantum Computing and Engineering (QCE-25), Sep 2, 2025
 * Springer Nature Quantum Machine Intelligence (QMI), Aug 12, 2025
 * Asia and South Pacific Design Automation Conference (ASP-DAC), Jul 23, 2025
 * IEEE International Conference on Quantum Computing and Engineering (QCE-25), Jul 20, 2025
@@ -59,4 +60,5 @@ Reviewer Service
 * Elsevier Journal of Network and Computer Applications (JNCA), Mar 6, 2024
 * Elsevier Internet of Things, Jan 17, 2025
 * Elsevier Journal of Network and Computer Applications (JNCA), Dec 13, 2024
+
 
