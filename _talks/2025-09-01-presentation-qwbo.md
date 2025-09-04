@@ -7,4 +7,4 @@ venue: "QWBO: QAOA-Based High-Speed Weighted Black-box Hyperparameter Optimizati
 date: 2025-09-01
 location: "Albuquerque Convention Center, New Mexico, USA"
 ---
-<img src="../images/2025-09-01-qce-hcvs-1.jpg" alt="pre-qce-hcvs-1" width="300"> <img src="../images/2025-09-01-qce-hcvs-2.jpg" alt="pre-qce-hcvs-2" width="300"> <img src="../images/2025-09-01-qce-hcvs-3.jpg" alt="pre-qce-hcvs-3" width="300">
+<img src="../images/2025-09-01-qce-qwbo-1.jpg" alt="pre-qce-qwbo-1" width="300"> <img src="../images/2025-09-01-qce-qwbo-2.jpg" alt="pre-qce-qwbo-2" width="300"> <img src="../images/2025-09-01-qce-qwbo-3.jpg" alt="pre-qce-qwbo-3" width="300">
