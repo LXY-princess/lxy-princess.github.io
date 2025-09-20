@@ -14,6 +14,8 @@ News!!!
 
 **2025**
 
+:tada: One paper accepted at [The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)](https://neurips.cc/), Sep 18, 2025!
+
 :tada: One paper accepted at [IEEE Transactions on Aerospace and Electronic Systems (TAES)](https://ieee-aess.org/publications/taes), Aug 24, 2025!
 
 :tada: Two papers accepted at [IEEE International Conference on Quantum Computing and Engineering (QCE-25)](https://qce.quantum.ieee.org/2025/), Jul 21, 2025!
