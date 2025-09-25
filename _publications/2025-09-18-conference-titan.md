@@ -3,6 +3,7 @@ title: "TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing i
 collection: publications
 category: conferences
 permalink: /publication/2025-09-18-conference-titan
+excerpt: ''
 date: 2025-09-18
 venue: 'The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)'
 citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Chen, K. Zhang, and Z. Liang, Y. Wang, and Y. Du. Waiting for proceedings'
