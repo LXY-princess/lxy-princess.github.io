@@ -6,7 +6,7 @@ permalink: /publication/2025-09-18-conference-titan
 excerpt: ''
 date: 2025-09-18
 venue: 'The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)'
-citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Chen, K. Zhang, and Z. Liang, Y. Wang, and Y. Du. Waiting for proceedings'
+citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Chen, K. Zhang, and Z. Liang, Y. Wang, and Y. Du. Waiting for proceedings.'
 paperurl: "https://arxiv.org/abs/2509.15193"
 ---
 
