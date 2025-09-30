@@ -7,9 +7,7 @@ excerpt: 'Keywords: Fingerprinting, Learning-to-learn, Extreme Gradient Boosting
 date: 2025-01-17
 venue: '2025 IEEE International Conference on Communications (ICC-25)'
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11161218'
-citation: '<u><b>X. Li</b></u>, Y. Peng and Y. Wang, "FiCo: A Fingerprinting-Based Two-Step Learning-to-Learn Approach Combing Vibration and 5G Communication for UAV Classification," ICC 2025 - IEEE International Conference on Communications, Montreal, QC, Canada, 2025, pp. 3363-3369, doi: 10.1109/ICC52391.2025.11161218. keywords: {Vibrations;Training;Logistic regression;Accuracy;Soft sensors;Fingerprint recognition;Predictive models;Autonomous aerial vehicles;Boosting;Data models;Fingerprinting;Learning-to-learn;Extreme Gradient Boosting;Logistic Regression;Meta-network},
-
-'
+citation: '<u><b>X. Li</b></u>, Y. Peng and Y. Wang, "FiCo: A Fingerprinting-Based Two-Step Learning-to-Learn Approach Combing Vibration and 5G Communication for UAV Classification," ICC 2025 - IEEE International Conference on Communications, Montreal, QC, Canada, 2025, pp. 3363-3369, doi: 10.1109/ICC52391.2025.11161218.'
 ---
 
 Abstract: Unmanned Aerial Vehicles (UAVs) are widely utilized
