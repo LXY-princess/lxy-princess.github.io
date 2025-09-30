@@ -9,7 +9,11 @@ redirect_from:
 
 Welcome! My name is Xinyi Li. I am currently a second year PhD candidate at [Stevens Institute of Technology](https://www.stevens.edu/). My advisor is [Prof. Ying Wang](https://www.stevens.edu/profile/ywang6). I received my Master degree from [Duke University](https://duke.edu/) in 2024.
 
-News!!!
+Research Interest :book:
+======
+**Quantum-Accelerated Combinatorial Optimization**
+
+News !!! :newspaper: 
 ======
 
 **2025**
