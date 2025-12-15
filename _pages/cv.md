@@ -45,6 +45,8 @@ Talks
   
 Service
 ======
+* Springer Nature Quantum Machine Intelligence (QMI), Nov 21, 2025
+* ACM Transactions on Quantum Computing (TQC), Oct 23, 2025
 * Session Chair, IEEE International Conference on Quantum Computing and Engineering (QCE-25), Sep 2, 2025
 * Springer Nature Quantum Machine Intelligence (QMI), Aug 12, 2025
 * Asia and South Pacific Design Automation Conference (ASP-DAC), Jul 23, 2025
