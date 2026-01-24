@@ -45,6 +45,8 @@ Talks
   
 Service
 ======
+* Elsevier Internet of Things, Jan 21, 2026
+* ACM Transactions on Quantum Computing (TQC-25), Jan 3, 2026
 * Springer Nature Quantum Machine Intelligence (QMI), Nov 21, 2025
 * ACM Transactions on Quantum Computing (TQC), Oct 23, 2025
 * Session Chair, IEEE International Conference on Quantum Computing and Engineering (QCE-25), Sep 2, 2025
