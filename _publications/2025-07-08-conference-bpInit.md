@@ -6,6 +6,7 @@ permalink: /publication/2025-07-08-conference-bpInit
 excerpt: ''
 date: 2025-07-08
 venue: '2025 IEEE International Conference on Quantum Computing and Engineering (QCE-25)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11250281'
 citation: 'Yifeng Peng, <u><b>Xinyi Li</b></u>, Zhemin Zhang, Samuel Yen-Chi Chen, Zhiding Liang, Ying Wang, Waiting for proceedings'
 ---
 
