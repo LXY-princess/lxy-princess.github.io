@@ -6,6 +6,7 @@ permalink: /publication/2025-07-21-conference-qwbo
 excerpt: 'Keywords: Hyperparameter Optimization, Quantum Approximate Optimization Algorithm, Secure Unmanned Aerial Vehicle Fingerprinting, XGBoost'
 date: 2025-07-21
 venue: '2025 IEEE International Conference on Quantum Computing and Engineering (QCE-25)'
+paperurl: 'https://ieeexplore.ieee.org/abstract/document/11250091/'
 citation: '<u><b>X. Li</b></u>, Y. Peng, and Y. Wang, Waiting for proceedings'
 ---
 
