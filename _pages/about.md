@@ -16,6 +16,10 @@ Research Interest :book:
 News !!! :newspaper: 
 ======
 
+**2026**
+
+:tada: Three papers accepted at [IEEE International Conference on Quantum Computing and Engineering (QCE-26)](https://qce.quantum.ieee.org/2026/), Jul 21, 2026!
+
 **2025**
 
 :tada: One paper accepted at [The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)](https://neurips.cc/), Sep 18, 2025!
