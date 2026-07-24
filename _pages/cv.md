@@ -45,7 +45,9 @@ Talks
   
 Service
 ======
+* Program Committee, NeurIPS 2026 SaTQuML Workshop, Jul, 24, 2026
 * Technical Program Committee Member, Quantum Computing Security, Privacy, and Resilience (Q-SEC 2026), IEEE International Conference on Quantum Computing and Engineering (QCE-26), Sep, 13-18, 2026
+* IEEE International Conference on Quantum Computing and Engineering (QCE-26), Jul 13, 2026
 * Elsevier Internet of Things, Jan 21, 2026
 * ACM Transactions on Quantum Computing (TQC-25), Jan 3, 2026
 * Springer Nature Quantum Machine Intelligence (QMI), Nov 21, 2025
