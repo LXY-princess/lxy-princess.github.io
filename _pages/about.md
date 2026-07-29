@@ -15,7 +15,7 @@ Research Interest :book:
 
 Hardware-aware compilation, pulse scheduling, atom movement, and resource management.
 
-:atom: **Quantum Error Correction & Security** 
+:atom_symbol: **Quantum Error Correction & Security** 
 
 Atom-loss modeling, decoder vulnerabilities, and fault-tolerant defenses.
 
