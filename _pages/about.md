@@ -11,7 +11,38 @@ Welcome! My name is Xinyi Li. I am currently a second year PhD candidate at [Ste
 
 Research Interest :book:
 ======
-**Quantum-Accelerated Combinatorial Optimization**
+My research focuses on building reliable, secure, and scalable quantum
+computing systems. I work across the quantum computing stack, connecting
+hardware constraints with compilation, error correction, cloud infrastructure,
+and quantum algorithms, with a particular interest in neutral-atom platforms.
+
+### Neutral-Atom Quantum Systems and Architecture
+
+I develop hardware-aware compilation and scheduling methods for neutral-atom
+quantum computers. My work studies how physical constraints—including atom
+movement, interaction-zone spacing, pulse selection, power limits, and dynamic
+zoned architectures—affect circuit reliability, latency, and scalability.
+
+### Quantum Error Correction and Security
+
+I investigate the interaction between physical faults and quantum error
+correction. My research includes decoder-aware atom-loss modeling, analysis of
+security vulnerabilities in decoder priors, and the design of defenses that
+improve the robustness and trustworthiness of QEC systems.
+
+### Quantum Cloud Computing
+
+I study systems support for scalable and shared quantum computing services.
+My work explores multi-tenant virtual QPUs, resource-aware scheduling,
+pre-transpilation caching, and other techniques for reducing latency and
+improving resource utilization in quantum cloud platforms.
+
+### Quantum Algorithms and Machine Learning
+
+I explore variational quantum algorithms and hybrid quantum-classical learning,
+including QAOA, VQE, quantum optimization, and quantum neural networks. I am
+particularly interested in improving trainability, robustness to quantum noise,
+and the practical usefulness of these methods on near-term quantum systems.
 
 News !!! :newspaper: 
 ======
