@@ -11,38 +11,21 @@ Welcome! My name is Xinyi Li. I am currently a second year PhD candidate at [Ste
 
 Research Interest :book:
 ======
-My research focuses on building reliable, secure, and scalable quantum
-computing systems. I work across the quantum computing stack, connecting
-hardware constraints with compilation, error correction, cloud infrastructure,
-and quantum algorithms, with a particular interest in neutral-atom platforms.
+:atom_symbol: **Neutral-Atom Systems**
 
-### Neutral-Atom Quantum Systems and Architecture
+Hardware-aware compilation, pulse scheduling, atom movement, and resource management.
 
-I develop hardware-aware compilation and scheduling methods for neutral-atom
-quantum computers. My work studies how physical constraints—including atom
-movement, interaction-zone spacing, pulse selection, power limits, and dynamic
-zoned architectures—affect circuit reliability, latency, and scalability.
+:atom: **Quantum Error Correction & Security** 
 
-### Quantum Error Correction and Security
+Atom-loss modeling, decoder vulnerabilities, and fault-tolerant defenses.
 
-I investigate the interaction between physical faults and quantum error
-correction. My research includes decoder-aware atom-loss modeling, analysis of
-security vulnerabilities in decoder priors, and the design of defenses that
-improve the robustness and trustworthiness of QEC systems.
+:cloud: **Quantum Cloud Systems**
 
-### Quantum Cloud Computing
+Multi-tenant virtual QPUs, compilation caching, scheduling, and resource sharing.
 
-I study systems support for scalable and shared quantum computing services.
-My work explores multi-tenant virtual QPUs, resource-aware scheduling,
-pre-transpilation caching, and other techniques for reducing latency and
-improving resource utilization in quantum cloud platforms.
+:star: **Quantum Algorithms & ML**
 
-### Quantum Algorithms and Machine Learning
-
-I explore variational quantum algorithms and hybrid quantum-classical learning,
-including QAOA, VQE, quantum optimization, and quantum neural networks. I am
-particularly interested in improving trainability, robustness to quantum noise,
-and the practical usefulness of these methods on near-term quantum systems.
+Variational algorithms, QAOA/VQE, hybrid learning, and noise-aware optimization
 
 News !!! :newspaper: 
 ======
