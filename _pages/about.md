@@ -75,6 +75,6 @@ News !!! :newspaper:
 
 
 <hr>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=TScQ47l_OlRzhNZdYJSyyPX_o8qpPDgoSOFsoqJxs1U&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=F-lhejoUH_VVl9eW8L4rGS9ahPmLrZ2ZmrYYgEfqytw&cl=ffffff&w=a"></script>
 
 
