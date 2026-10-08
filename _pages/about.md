@@ -32,6 +32,8 @@ News !!! :newspaper:
 
 **2026**
 
+:tada: One paper accepted at [17th ACM Symposium on Cloud Computing (SoCC'26)](https://acmsocc.org/2026/), Oct 07, 2026!
+
 :tada: Three papers accepted at [IEEE International Conference on Quantum Computing and Engineering (QCE-26)](https://qce.quantum.ieee.org/2026/), Jul 21, 2026!
 
 :tada: Two papers accepted at [IEEE/ACM International Conference on Computer-Aided Design (ICCAD'26)](https://iccad.com/2026), Jul 11, 2026!
