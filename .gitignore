@@ -18,3 +18,7 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# Official publisher PDFs that may not be posted publicly (IEEE subscription papers).
+# Kept locally inside the project only; never pushed. Jekyll also skips "_" folders.
+files/papers/_private/

@@ -1,0 +1,12 @@
+{%- comment -%}
+  Row of contact / CV buttons under the intro, so they are visible on phones too
+  (the sidebar profile collapses behind a "Follow" button on small screens).
+  The CV button appears once files/cv.pdf exists.
+{%- endcomment -%}
+{%- assign cv_pdf = site.static_files | where: "path", "/files/cv.pdf" | first -%}
+<div class="quick-links">
+{%- if cv_pdf %}<a class="paper__btn" href="{{ '/files/cv.pdf' | relative_url }}">CV (PDF)</a>{% endif -%}
+{%- if site.author.email %}<a class="paper__btn" href="mailto:{{ site.author.email }}">Email: {{ site.author.email }}</a>{% endif -%}
+{%- if site.author.googlescholar %}<a class="paper__btn" href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif -%}
+{%- if site.author.linkedin %}<a class="paper__btn" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif -%}
+</div>

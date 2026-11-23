@@ -6,6 +6,16 @@ permalink: /publication/2024-01-06-conference-raft
 excerpt: 'Keywords: 5G, CBOW, fuzz testing, root cause analysis, machine learning, vulnerability detection'
 date: 2024-01-06
 venue: 'IEEE 21st Consumer Communications & Networking Conference (CCNC)'
+key: raft
+venue_short: "CCNC'24"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Jingda Yang"
+  - "Sudhanshu Arya"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10454824"
+doi: "10.1109/CCNC51664.2024.10454824"
 paperurl: 'https://ieeexplore.ieee.org/document/10454824'
 citation: 'Y. Peng, <u><b>X. Li</b></u>, J. Yang, S. Arya and Y. Wang, "RAFT: A Real-Time Framework for Root Cause Analysis in 5G and Beyond Vulnerability Detection," 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC), Las Vegas, NV, USA, 2024, pp. 446-454, doi: 10.1109/CCNC51664.2024.10454824.'
 ---

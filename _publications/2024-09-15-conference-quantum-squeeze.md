@@ -6,6 +6,14 @@ permalink: /publication/2024-09-15-conference-quantum-squeeze
 excerpt: 'Keywords: Quantum computing, Amplitude embedding, Quantum attention network'
 date: 2024-09-15
 venue: '2024 IEEE International Conference on Quantum Computing and Engineering (QCE)'
+key: qse
+venue_short: "QCE'24"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10821076"
+doi: "10.1109/QCE60285.2024.10249"
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10821076'
 citation: 'Y. Peng, <u><b>X. Li</b></u> and Y. Wang, "Quantum Squeeze-and-Excitation Networks," 2024 IEEE International Conference on Quantum Computing and Engineering (QCE), Montreal, QC, Canada, 2024, pp. 39-43, doi: 10.1109/QCE60285.2024.10249.'
 ---

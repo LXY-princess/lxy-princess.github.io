@@ -6,6 +6,15 @@ permalink: /publication/2024-10-15-journal-hyq2
 excerpt: 'Keywords: NextG vulnerability detection, quantum computing, quantum neural networks (QNNs)'
 date: 2024-10-15
 venue: 'IEEE Transactions on Quantum Engineering'
+key: hyq2
+venue_short: "IEEE TQE"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Zhiding Liang"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10716796"
+doi: "10.1109/TQE.2024.3481280"
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10716796'
 citation: 'Y. Peng, <u><b>X. Li</b></u>, Z. Liang and Y. Wang, "HyQ2: A Hybrid Quantum Neural Network for NextG Vulnerability Detection," in IEEE Transactions on Quantum Engineering, vol. 5, pp. 1-19, 2024, Art no. 3103819, doi: 10.1109/TQE.2024.3481280.'
 ---

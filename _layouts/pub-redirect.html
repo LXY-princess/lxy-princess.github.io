@@ -1,0 +1,19 @@
+{%- comment -%}
+  Old per-paper pages (/publication/...) now forward to that paper's entry in the
+  Publications section of the home page, so links shared before the redesign keep working.
+{%- endcomment -%}
+{%- assign target = "/#" | append: page.key | relative_url -%}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title | strip_html }} - {{ site.title }}</title>
+  <link rel="canonical" href="{{ target | absolute_url }}">
+  <meta http-equiv="refresh" content="0; url={{ target }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <p>This page has moved to <a href="{{ target }}">{{ target | absolute_url }}</a>.</p>
+  <script>location.replace("{{ target }}");</script>
+</body>
+</html>

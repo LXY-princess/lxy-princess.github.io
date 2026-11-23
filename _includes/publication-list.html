@@ -1,0 +1,49 @@
+{% comment %}
+  Publication list for the home page, grouped by year (newest first).
+  Every paper lives in _publications/*.md (title, authors, venue_short, pdf, paperurl, talk, ...).
+  Papers with `selected: true` form the default "Selected" view; "All" shows every paper.
+  Without JavaScript every paper is shown and the toggle stays hidden.
+{% endcomment %}
+{% assign all_pubs = site.publications | sort: "date" | reverse %}
+{% assign selected_pubs = all_pubs | where: "selected", true %}
+<div class="pub-toolbar">
+<span class="pub-toggle" id="pub-toggle" hidden>
+<button type="button" class="paper__btn" data-pub-view="selected">Selected ({{ selected_pubs.size }})</button>
+<button type="button" class="paper__btn" data-pub-view="all">All ({{ all_pubs.size }})</button>
+</span>
+{% if site.author.googlescholar %}<a class="paper__btn pub-scholar" href="{{ site.author.googlescholar }}">Google Scholar &#8599;</a>{% endif %}
+</div>
+<div class="pubs" id="pub-list">
+{% assign by_year = all_pubs | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for year in by_year %}
+{% assign year_selected = year.items | where: "selected", true %}
+<h3 class="pub-year{% if year_selected.size == 0 %} pub-year--more{% endif %}" id="y{{ year.name }}">{{ year.name }}</h3>
+{% for p in year.items %}
+{% include paper-entry.html paper=p %}
+{% endfor %}
+{% endfor %}
+</div>
+<script>
+(function () {
+  var list = document.getElementById("pub-list"), bar = document.getElementById("pub-toggle");
+  if (!list || !bar) return;
+  var buttons = bar.querySelectorAll("[data-pub-view]");
+  function show(view) {
+    list.classList.toggle("pubs--selected", view === "selected");
+    for (var i = 0; i < buttons.length; i++)
+      buttons[i].classList.toggle("is-active", buttons[i].getAttribute("data-pub-view") === view);
+  }
+  // A News link or an old /publication/... link may point at a paper hidden in the Selected view.
+  function revealTarget() {
+    var id = decodeURIComponent(location.hash.slice(1));
+    var el = id && document.getElementById(id);
+    if (el && list.contains(el) && el.offsetParent === null) { show("all"); el.scrollIntoView(); }
+  }
+  for (var i = 0; i < buttons.length; i++)
+    buttons[i].addEventListener("click", function () { show(this.getAttribute("data-pub-view")); });
+  bar.hidden = false;
+  show("selected");
+  revealTarget();
+  window.addEventListener("hashchange", revealTarget);
+})();
+</script>

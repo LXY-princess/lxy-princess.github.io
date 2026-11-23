@@ -1,0 +1,11 @@
+{%- comment -%}
+  Thumbnail grid for the "Talks & Posters" section; cards come from _data/gallery.yml.
+{%- endcomment -%}
+<div class="gallery">
+{%- for g in site.data.gallery %}
+<a class="gallery__item" href="{{ g.link | relative_url }}">
+<img src="{{ g.image | relative_url }}" alt="{{ g.kind }} at {{ g.event }}: {{ g.title }}" loading="lazy">
+<span class="gallery__cap"><strong>{{ g.event }}</strong> &middot; {{ g.kind }} &middot; {{ g.title }}</span>
+</a>
+{%- endfor %}
+</div>

@@ -6,7 +6,14 @@ permalink: /publication/2026-07-21-conference-ZoneSpacing
 excerpt: 'Keywords: neutral atoms, Rydberg gates, quantum error correction, residual crosstalk, entangling-zone spacing'
 date: 2026-07-21
 venue: '2026 IEEE International Conference on Quantum Computing and Engineering (QCE-26)'
-
+key: zonespacing
+selected: true
+venue_short: "QCE'26"
+authors:
+  - "Xinyi Li"
+  - "Yifeng Peng"
+  - "Ying Wang"
+pdf: "/files/papers/zonespacing.pdf"
 citation: '<u><b>X. Li</b></u>, Y. Peng, and Y. Wang, Waiting for proceedings'
 ---
 

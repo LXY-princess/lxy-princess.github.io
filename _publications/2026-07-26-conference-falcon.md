@@ -6,7 +6,20 @@ permalink: /publication/2026-07-26-conference-falcon
 excerpt: 'Keywords: Variational quantum circuits, quantum compilation, hardware-aware optimization, latency-aware scheduling, hypergraph neural networks, circuit pruning'
 date: 2026-07-26
 venue: 'IEEE/ACM International Conference on Computer-Aided Design (ICCAD''26)'
-
+key: falcon
+selected: true
+venue_short: "ICCAD'26"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Yidong Zhou"
+  - "Samuel Yen-Chi Chen"
+  - "Huanhsin Tseng"
+  - "Kuan-Cheng Chen"
+  - "Siyuan Niu"
+  - "Zhiding Liang"
+  - "Ying Wang"
+pdf: "/files/papers/falcon.pdf"
 citation: 'Y. Peng, <u><b>X. Li</b></u>, Y. Zhou, SYC. Chen, H. Tseng, KC. Chen, S. Niu, Z. Liang, and Y. Wang, Waiting for proceedings'
 ---
 

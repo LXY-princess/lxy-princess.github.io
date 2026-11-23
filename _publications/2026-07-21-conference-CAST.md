@@ -6,7 +6,14 @@ permalink: /publication/2026-07-21-conference-CAST
 excerpt: 'Keywords: neutral atoms, quantum error correction, atom loss, erasure decoding, compiler'
 date: 2026-07-21
 venue: '2026 IEEE International Conference on Quantum Computing and Engineering (QCE-26)'
-
+key: cast
+selected: true
+venue_short: "QCE'26"
+authors:
+  - "Xinyi Li"
+  - "Yifeng Peng"
+  - "Ying Wang"
+pdf: "/files/papers/cast.pdf"
 citation: '<u><b>X. Li</b></u>, Y. Peng, and Y. Wang, Waiting for proceedings'
 ---
 

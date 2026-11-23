@@ -6,7 +6,22 @@ permalink: /publication/2026-07-26-conference-RZ-Flow
 excerpt: 'Keywords: Quantum compilation, zoned neutral-atom architectures, feedforward-aware scheduling, readout-aware compilation'
 date: 2026-07-26
 venue: 'IEEE/ACM International Conference on Computer-Aided Design (ICCAD''26)'
-
+key: rz-flow
+selected: true
+venue_short: "ICCAD'26"
+authors:
+  - "Yifeng Peng*"
+  - "Xinyi Li*"
+  - "Yidong Zhou"
+  - "Siyuan Niu"
+  - "Hao Wang"
+  - "Bo Yuan"
+  - "Ying Wang"
+pdf: "/files/papers/rz-flow.pdf"
+poster: "/files/posters/rz-flow.pdf"
+poster_at: "Poster at QCAS 2026 (co-located with IEEE/ACM ICCAD 2026), San Jose, CA, Nov 2026"
+talk: "Presented at IEEE/ACM ICCAD 2026, San Jose, CA, Nov 2026"
+talkurl: "/talks/2026-11-11-presentation-rz-flow"
 citation: 'Y. Peng*, <u><b>X. Li*</b></u>, Y. Zhou, S. Niu, H. Wang, B. Yuan, and Y. Wang, Waiting for proceedings'
 ---
 

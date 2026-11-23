@@ -1,0 +1,37 @@
+# Cards in the "Talks & Posters" section of the home page (newest first).
+# image: 640x480 thumbnail in /images/gallery/   link: talk page with full photos, or the poster PDF
+- image: /images/gallery/2026-iccad-rzflow-talk.jpg
+  event: "ICCAD 2026"
+  kind: "Talk"
+  title: "RZ-Flow"
+  link: /talks/2026-11-11-presentation-rz-flow
+
+- image: /images/gallery/2026-qcas-rzflow-poster.jpg
+  event: "QCAS 2026"
+  kind: "Poster"
+  title: "RZ-Flow"
+  link: /files/posters/rz-flow.pdf
+
+- image: /images/gallery/2026-qcas-transcache-poster.jpg
+  event: "QCAS 2026"
+  kind: "Poster"
+  title: "TransCache"
+  link: /files/posters/transcache.pdf
+
+- image: /images/gallery/2025-qce-qwbo-talk.jpg
+  event: "QCE 2025"
+  kind: "Talk"
+  title: "QWBO"
+  link: /talks/2025-09-01-presentation-qwbo
+
+- image: /images/gallery/2025-qce-hcvs-talk.jpg
+  event: "QCE 2025"
+  kind: "Talk"
+  title: "HCVS-Net"
+  link: /talks/2025-09-01-presentation-hcvs
+
+- image: /images/gallery/2025-stevens-fico-seminar.jpg
+  event: "Stevens 2025"
+  kind: "Seminar"
+  title: "FiCo"
+  link: /talks/2025-04-16-seminar-fico

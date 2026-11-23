@@ -6,7 +6,15 @@ permalink: /publication/2026-07-21-conference-PriorGuard
 excerpt: 'Keywords: Quantum Error Correction, Surface Codes, Decoder Priors, Prior Poisoning, Quantum Security'
 date: 2026-07-21
 venue: '2026 IEEE International Conference on Quantum Computing and Engineering (QCE-26)'
-
+key: priorguard
+selected: true
+venue_short: "QCE'26"
+authors:
+  - "Xinyi Li"
+  - "Yifeng Peng"
+  - "Juntao Chen"
+  - "Ying Wang"
+pdf: "/files/papers/priorguard.pdf"
 citation: '<u><b>X. Li</b></u>, Y. Peng, J. Chen, and Y. Wang, Waiting for proceedings'
 ---
 

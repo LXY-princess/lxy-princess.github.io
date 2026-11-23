@@ -6,8 +6,21 @@ permalink: /publication/2025-09-18-conference-titan
 excerpt: ''
 date: 2025-09-18
 venue: 'The Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS 2025)'
-citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Chen, K. Zhang, and Z. Liang, Y. Wang, and Y. Du. Waiting for proceedings.'
-paperurl: "https://arxiv.org/abs/2509.15193"
+key: titan
+selected: true
+venue_short: "NeurIPS'25"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Samuel Yen-Chi Chen"
+  - "Kaining Zhang"
+  - "Zhiding Liang"
+  - "Ying Wang"
+  - "Yuxuan Du"
+pdf: "https://proceedings.neurips.cc/paper_files/paper/2025/file/438d8b727410a558c4266d1e1a4f8616-Paper-Conference.pdf"
+paperurl: "https://proceedings.neurips.cc/paper_files/paper/2025/hash/438d8b727410a558c4266d1e1a4f8616-Abstract-Conference.html"
+arxiv: "https://arxiv.org/abs/2509.15193"
+citation: "Y. Peng, <u><b>X. Li</b></u>, S. Y.-C. Chen, K. Zhang, Z. Liang, Y. Wang, and Y. Du, \"TITAN: A Trajectory-Informed Technique for Adaptive Parameter Freezing in Large-Scale VQE,\" in Advances in Neural Information Processing Systems 38 (NeurIPS 2025), 2025, pp. 52806-52827."
 ---
 
 Abstract: Variational quantum Eigensolver (VQE) is a leading candidate for harnessing quantum computers to advance quantum chemistry and materials simulations, yet its

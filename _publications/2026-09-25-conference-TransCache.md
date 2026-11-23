@@ -6,7 +6,19 @@ permalink: /publication/2026-09-25-conference-TransCache
 excerpt: 'Keywords: Quantum cloud computing, Quantum-as-a-Service, quantum circuit transpilation, compilation caching, cache management, opportunistic prewarming'
 date: 2026-09-25
 venue: 'ACM Symposium on Cloud Computing Volume 2 (SoCC ’26 Vol. 2)'
-
+key: transcache
+selected: true
+venue_short: "SoCC'26"
+authors:
+  - "Xinyi Li"
+  - "Yifeng Peng"
+  - "Siyuan Niu"
+  - "Zhiding Liang"
+  - "Hao Wang"
+  - "Ying Wang"
+pdf: "/files/papers/transcache.pdf"
+poster: "/files/posters/transcache.pdf"
+poster_at: "Poster at QCAS 2026 (co-located with IEEE/ACM ICCAD 2026), San Jose, CA, Nov 2026"
 citation: '<u><b>X. Li</b></u>, Y. Peng, S. Niu, Z. Liang, H. Wang, and Y. Wang, to appear'
 ---
 

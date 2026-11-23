@@ -6,6 +6,14 @@ permalink: /publication/2024-09-15-conference-qrng-ddpm
 excerpt: 'Keywords: Quantum random number, Quantum artificial intelligence, Diffusion models, Gaussian mixture noise'
 date: 2024-09-15
 venue: '2024 IEEE International Conference on Quantum Computing and Engineering (QCE)'
+key: qrng-ddpm
+venue_short: "QCE'24"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10821107"
+doi: "10.1109/QCE60285.2024.10259"
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10821107'
 citation: 'Y. Peng, <u><b>X. Li</b></u> and Y. Wang, "QRNG-DDPM: Enhancing Diffusion Models Through Fitting Mixture Noise with Quantum Random Number," 2024 IEEE International Conference on Quantum Computing and Engineering (QCE), Montreal, QC, Canada, 2024, pp. 92-96, doi: 10.1109/QCE60285.2024.10259.'
 ---

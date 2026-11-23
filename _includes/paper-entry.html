@@ -1,0 +1,59 @@
+{%- comment -%}
+  Renders one paper from _publications: {% include paper-entry.html paper=doc %}
+  The author whose name equals site.author.name is highlighted; "*" marks equal contribution.
+  A local PDF (path starting with /) only gets a button once the file exists in the repo.
+  Fields: pdf (official PDF URL, or /files/papers/x.pdf before proceedings are out),
+          preprint (/files/papers/x.pdf, the author's accepted version after publication),
+          paperurl (official landing page), arxiv, slidesurl, talk + talkurl,
+          poster (/files/posters/x.pdf) + poster_at (where it was presented).
+  The entry's id is the paper's `key`, so News items can link to it with (#key).
+{%- endcomment -%}
+{%- assign p = include.paper -%}
+{%- assign pdf_ok = false -%}
+{%- if p.pdf contains "://" -%}
+  {%- assign pdf_ok = true -%}
+{%- elsif p.pdf -%}
+  {%- assign pdf_file = site.static_files | where: "path", p.pdf | first -%}
+  {%- if pdf_file -%}{%- assign pdf_ok = true -%}{%- endif -%}
+{%- endif -%}
+{%- assign equal = false -%}
+<div class="paper{% unless p.selected %} paper--more{% endunless %}" id="{{ p.key }}">
+<div class="paper__title"><span class="paper__venue">{{ p.venue_short }}</span>{{ p.title }}</div>
+<div class="paper__authors">
+{%- for a in p.authors -%}
+  {%- assign bare = a | remove: "*" | strip -%}
+  {%- if a contains "*" -%}{%- assign equal = true -%}{%- endif -%}
+  {%- assign shown = a | replace: "*", "<sup>&#42;</sup>" -%}
+  {%- if bare == site.author.name -%}<span class="paper__me">{{ shown }}</span>{%- else -%}{{ shown }}{%- endif -%}
+  {%- unless forloop.last -%}, {% endunless -%}
+{%- endfor -%}
+{%- if equal %} <span class="paper__note">(<sup>&#42;</sup>equal contribution)</span>{% endif -%}
+</div>
+<div class="paper__meta"><em>{{ p.venue | strip }}</em>, {{ p.date | date: "%Y" }}
+{%- if p.talk %}<br><span class="paper__talk">&#127908; {{ p.talk }}</span>{% endif -%}
+{%- if p.poster_at %}<br><span class="paper__talk">&#128444;&#65039; {{ p.poster_at }}</span>{% endif -%}
+</div>
+<div class="paper__links">
+{%- if pdf_ok -%}
+  <a class="paper__btn" href="{% if p.pdf contains '://' %}{{ p.pdf }}{% else %}{{ p.pdf | relative_url }}{% endif %}">PDF</a>
+{%- else -%}
+  <span class="paper__btn paper__btn--off">PDF coming soon</span>
+{%- endif -%}
+{%- if p.paperurl %}<a class="paper__btn" href="{{ p.paperurl }}">Paper</a>{% endif -%}
+{%- if p.arxiv %}<a class="paper__btn" href="{{ p.arxiv }}">arXiv</a>{% endif -%}
+{%- if p.preprint -%}
+  {%- assign pre_file = site.static_files | where: "path", p.preprint | first -%}
+  {%- if pre_file -%}<a class="paper__btn" href="{{ p.preprint | relative_url }}">Preprint</a>{%- endif -%}
+{%- endif -%}
+{%- if p.slidesurl %}<a class="paper__btn" href="{{ p.slidesurl }}">Slides</a>{% endif -%}
+{%- if p.talkurl %}<a class="paper__btn" href="{{ p.talkurl | relative_url }}">Talk photos</a>{% endif -%}
+{%- if p.poster -%}
+  {%- assign poster_file = site.static_files | where: "path", p.poster | first -%}
+  {%- if poster_file -%}<a class="paper__btn" href="{{ p.poster | relative_url }}">Poster</a>{%- endif -%}
+{%- endif -%}
+{%- assign abstract = p.content | remove_first: "Abstract:" | strip -%}
+{%- if abstract != "" -%}
+  <details class="paper__abstract"><summary>Abstract</summary><div class="paper__abstract-body">{{ abstract }}</div></details>
+{%- endif -%}
+</div>
+</div>

@@ -6,6 +6,15 @@ permalink: /publication/2024-10-01-journal-coco
 excerpt: 'Keywords: Machine learning, Word2Vec, CBOW, NextG vulnerability detection, fuzz testing'
 date: 2024-10-01
 venue: 'IEEE Open Journal of the Communications Society'
+key: coco
+venue_short: "IEEE OJ-COMS"
+authors:
+  - "Yifeng Peng"
+  - "Xinyi Li"
+  - "Sudhanshu Arya"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10701039"
+doi: "10.1109/OJCOMS.2024.3471709"
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/10701039'
 citation: 'Y. Peng, <u><b>X. Li</b></u>, S. Arya and Y. Wang, "CoCo: A CBOW-Based Framework for Synergistic Vulnerability Detection in Partial and Discontinuous Logs for NextG Communications," in IEEE Open Journal of the Communications Society, vol. 5, pp. 6381-6403, 2024, doi: 10.1109/OJCOMS.2024.3471709.'
 ---

@@ -6,6 +6,16 @@ permalink: /publication/2025-01-17-conference-fico
 excerpt: 'Keywords: Fingerprinting, Learning-to-learn, Extreme Gradient Boosting, Logistic Regression, Meta-network'
 date: 2025-01-17
 venue: '2025 IEEE International Conference on Communications (ICC-25)'
+key: fico
+venue_short: "ICC'25"
+authors:
+  - "Xinyi Li"
+  - "Yifeng Peng"
+  - "Ying Wang"
+pdf: "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11161218"
+doi: "10.1109/ICC52391.2025.11161218"
+talk: "Seminar talk, Stevens Institute of Technology, Apr 2025"
+talkurl: "/talks/2025-04-16-seminar-fico"
 paperurl: 'https://ieeexplore.ieee.org/abstract/document/11161218'
 citation: '<u><b>X. Li</b></u>, Y. Peng and Y. Wang, "FiCo: A Fingerprinting-Based Two-Step Learning-to-Learn Approach Combing Vibration and 5G Communication for UAV Classification," ICC 2025 - IEEE International Conference on Communications, Montreal, QC, Canada, 2025, pp. 3363-3369, doi: 10.1109/ICC52391.2025.11161218.'
 ---
