@@ -182,44 +182,64 @@
   }
 }
 
-/* Talks & Posters: thumbnail cards (3 per row, 2 on phones) */
+/* Talks & Posters: 4-column grid of equal-size photos. Each group (one event,
+   one caption) spans as many columns as it has photos (--n, set inline).
+   On phones every group takes a full row and its photos shrink to fit. */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.8em;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6em;
   margin: 0.6em 0 1.6em;
 
   @media (max-width: 600px) {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
 
-.gallery__item {
-  display: block;
+.gallery__group {
+  display: block;            /* the theme makes every <figure> a flex row */
+  grid-column: span var(--n);
+  margin: 0;
   overflow: hidden;
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
-  color: var(--global-text-color) !important;
-  text-decoration: none !important;
-  transition: $global-transition;
+
+  @media (max-width: 600px) {
+    grid-column: auto;
+  }
+}
+
+.gallery__photos {
+  display: grid;
+  grid-template-columns: repeat(var(--n), 1fr);
+  gap: 2px;
+
+  a {
+    display: block;
+    transition: $global-transition;
+
+    &:hover { opacity: 0.85; }
+  }
 
   img {
     display: block;
     width: 100%;
+    margin: 0;               /* theme adds a bottom margin and rounded corners to figure images */
+    border-radius: 0;
     aspect-ratio: 4 / 3;
     object-fit: cover;
   }
-
-  &:hover {
-    border-color: var(--global-link-color);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  }
 }
 
+/* groups in one row stretch to the same height, so a caption may wrap
+   without breaking the alignment */
 .gallery__cap {
   display: block;
-  padding: 0.35em 0.6em;
-  font-size: 0.78em;
+  margin: 0;
+  padding: 0.3em 0.5em;
+  color: var(--global-text-color);
+  font-family: inherit;      /* theme uses a serif caption font */
+  font-size: 0.72em;
   line-height: 1.35;
 }
 

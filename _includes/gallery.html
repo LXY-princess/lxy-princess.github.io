@@ -1,11 +1,17 @@
 {%- comment -%}
-  Thumbnail grid for the "Talks & Posters" section; cards come from _data/gallery.yml.
+  "Talks & Posters" grid; groups come from _data/gallery.yml.
+  Each group spans as many grid columns as it has photos, with one caption underneath.
+  Clicking a photo opens the full-size image or the poster PDF.
 {%- endcomment -%}
 <div class="gallery">
 {%- for g in site.data.gallery %}
-<a class="gallery__item" href="{{ g.link | relative_url }}">
-<img src="{{ g.image | relative_url }}" alt="{{ g.kind }} at {{ g.event }}: {{ g.title }}" loading="lazy">
-<span class="gallery__cap"><strong>{{ g.event }}</strong> &middot; {{ g.kind }} &middot; {{ g.title }}</span>
-</a>
+<figure class="gallery__group" style="--n: {{ g.photos.size }}">
+<div class="gallery__photos">
+{%- for p in g.photos %}
+<a href="{{ p.link | relative_url }}" title="{{ g.event }} · {{ g.label }}"><img src="{{ p.thumb | relative_url }}" alt="{{ g.event }}: {{ g.label }}" loading="lazy"></a>
+{%- endfor %}
+</div>
+<figcaption class="gallery__cap"><strong>{{ g.event }}</strong> &middot; {{ g.label }}</figcaption>
+</figure>
 {%- endfor %}
 </div>

@@ -1,37 +1,52 @@
-# Cards in the "Talks & Posters" section of the home page (newest first).
-# image: 640x480 thumbnail in /images/gallery/   link: talk page with full photos, or the poster PDF
-- image: /images/gallery/2026-iccad-rzflow-talk.jpg
-  event: "ICCAD 2026"
-  kind: "Talk"
-  title: "RZ-Flow"
-  link: /talks/2026-11-11-presentation-rz-flow
+# Groups in the "Talks & Posters" section of the home page.
+# Each group shows its photos side by side with one caption underneath.
+# Every photo is the same size and a group is as wide as its photo count,
+# so keep each row adding up to 4 photos (2+2, 3+1, ...) to stay aligned.
+# thumb: 480x360 thumbnail in /images/gallery/   link: full-size photo or poster PDF
+- event: "ICCAD 2026"
+  label: "RZ-Flow talk"
+  photos:
+    - thumb: /images/gallery/2026-iccad-rzflow-1.jpg
+      link: /images/2026-11-11-iccad-rzflow-1.jpg
+    - thumb: /images/gallery/2026-iccad-rzflow-2.jpg
+      link: /images/2026-11-11-iccad-rzflow-2.jpg
 
-- image: /images/gallery/2026-qcas-rzflow-poster.jpg
-  event: "QCAS 2026"
-  kind: "Poster"
-  title: "RZ-Flow"
-  link: /files/posters/rz-flow.pdf
+- event: "QCAS 2026"
+  label: "Posters: RZ-Flow, TransCache"
+  photos:
+    - thumb: /images/gallery/2026-qcas-rzflow-poster.jpg
+      link: /files/posters/rz-flow.pdf
+    - thumb: /images/gallery/2026-qcas-transcache-poster.jpg
+      link: /files/posters/transcache.pdf
 
-- image: /images/gallery/2026-qcas-transcache-poster.jpg
-  event: "QCAS 2026"
-  kind: "Poster"
-  title: "TransCache"
-  link: /files/posters/transcache.pdf
+- event: "QCE 2025"
+  label: "HCVS-Net talk"
+  photos:
+    - thumb: /images/gallery/2025-qce-hcvs-1.jpg
+      link: /images/2025-09-01-qce-hcvs-1.jpg
+    - thumb: /images/gallery/2025-qce-hcvs-2.jpg
+      link: /images/2025-09-01-qce-hcvs-2.jpg
+    - thumb: /images/gallery/2025-qce-hcvs-3.jpg
+      link: /images/2025-09-01-qce-hcvs-3.jpg
 
-- image: /images/gallery/2025-qce-qwbo-talk.jpg
-  event: "QCE 2025"
-  kind: "Talk"
-  title: "QWBO"
-  link: /talks/2025-09-01-presentation-qwbo
+- event: "QCE 2025"
+  label: "Q-SEC Workshop"
+  photos:
+    - thumb: /images/gallery/2025-qce-qsec-group.jpg
+      link: /images/2025-09-01-qce-qwbo-3.jpg
 
-- image: /images/gallery/2025-qce-hcvs-talk.jpg
-  event: "QCE 2025"
-  kind: "Talk"
-  title: "HCVS-Net"
-  link: /talks/2025-09-01-presentation-hcvs
+- event: "QCE 2025"
+  label: "QWBO talk"
+  photos:
+    - thumb: /images/gallery/2025-qce-qwbo-1.jpg
+      link: /images/2025-09-01-qce-qwbo-1.jpg
+    - thumb: /images/gallery/2025-qce-qwbo-2.jpg
+      link: /images/2025-09-01-qce-qwbo-2.jpg
 
-- image: /images/gallery/2025-stevens-fico-seminar.jpg
-  event: "Stevens 2025"
-  kind: "Seminar"
-  title: "FiCo"
-  link: /talks/2025-04-16-seminar-fico
+- event: "Stevens 2025"
+  label: "FiCo seminar"
+  photos:
+    - thumb: /images/gallery/2025-stevens-fico-1.jpg
+      link: /images/2025-04-16-talk-seminar-1.jpg
+    - thumb: /images/gallery/2025-stevens-fico-2.jpg
+      link: /images/2025-04-16-talk-seminar-2.jpg

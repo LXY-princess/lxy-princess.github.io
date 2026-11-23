@@ -33,7 +33,8 @@
     for (var i = 0; i < buttons.length; i++)
       buttons[i].classList.toggle("is-active", buttons[i].getAttribute("data-pub-view") === view);
   }
-  // A News link or an old /publication/... link may point at a paper hidden in the Selected view.
+  /* A News link or an old /publication/... link may point at a paper hidden in the Selected view.
+     (Use block comments only: GitHub Pages compresses the HTML onto one line.) */
   function revealTarget() {
     var id = decodeURIComponent(location.hash.slice(1));
     var el = id && document.getElementById(id);
