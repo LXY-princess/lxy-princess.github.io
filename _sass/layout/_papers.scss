@@ -189,7 +189,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.6em;
-  margin: 0.6em 0 1.6em;
+  margin: 0.6em 0 0.4em;
 
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
@@ -243,6 +243,11 @@
   line-height: 1.35;
 }
 
+/* small visitor map at the bottom of the home page (width set by w= in the embed) */
+#mapmyvisitors-widget {
+  margin: 0.5em auto 0;
+}
+
 /* contact / CV buttons under the intro */
 .quick-links {
   display: flex;
@@ -261,9 +266,28 @@
   li { margin: 0.35em 0; }
 }
 
-/* ==========================================================================
-   NEWS BOX (home page): newest first, fixed height, scroll for older items
-   ========================================================================== */
+/* home page section headings (Research Interests, News, Publications, Talks,
+   CV): the theme gives h1 no top margin, so sections ran into each other.
+   Add space above, and underline each heading with a thin rule whose left
+   end carries a short accent bar in the theme's link color. */
+.page__content > h1 {
+  position: relative;
+  margin-top: 2em;
+  margin-bottom: 0.7em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--global-border-color);
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 2.2em;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--global-link-color);
+  }
+}
 
 /* section headings reached from the top bar stay clear of the fixed bar */
 .page__content h1[id],
@@ -272,36 +296,96 @@
   scroll-margin-top: calc(#{$masthead-height} + 0.5em);
 }
 
-.news-box {
-  max-height: 12.4em;  /* about 4 items, with the 5th half visible as a scroll hint */
-  overflow-y: auto;
-  margin-bottom: 1.5em;
-  padding: 0.5em 1em;
-  border: 1px solid var(--global-border-color);
-  border-radius: $border-radius;
+/* ==========================================================================
+   NEWS TIMELINE (home page): grouped by year, a vertical line with one
+   colored dot per item, a colored type tag, newest 5 shown by default
+   ========================================================================== */
+
+/* one color per news type; white tag text stays readable in light and dark themes */
+.news__item--award     { --news-color: #c98a00; }
+.news__item--paper     { --news-color: #2f7f93; }
+.news__item--talk      { --news-color: #7b52c7; }
+.news__item--milestone { --news-color: #3c8d5a; }
+
+.news {
+  margin: 0.4em 0 0.6em;
   font-size: 0.92em;
+}
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+.news__year-label {
+  margin: 0.6em 0 0.2em;
+  color: var(--global-text-color);
+  font-weight: 700;
+}
 
-  /* date in a fixed left column, text wraps with a hanging indent */
-  li {
-    position: relative;
-    margin: 0;
-    padding: 0.4em 0 0.4em 5.4em;
-    border-bottom: 1px dashed var(--global-border-color);
+.news__list {
+  margin: 0 0 0 0.45em;
+  padding: 0;
+  border-left: 2px solid var(--global-border-color);
+  list-style: none;
+}
 
-    &:last-child { border-bottom: 0; }
+/* month | tag | text; the text column wraps on its own */
+.news__item {
+  display: grid;
+  grid-template-columns: 2.4em 5.6em 1fr;
+  column-gap: 0.4em;
+  align-items: baseline;
+  position: relative;
+  margin: 0;
+  padding: 0.3em 0 0.3em 1.1em;
+
+  /* the dot sits on the vertical line */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.72em;
+    left: calc(-0.35em - 1px);
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+    background: var(--news-color);
+    box-shadow: 0 0 0 2px var(--global-bg-color);
   }
 }
 
-.news-date {
-  position: absolute;
-  left: 0;
+.news__month {
   color: var(--global-text-color-light);
-  font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.news__tag {
+  justify-self: start;
+  padding: 0.05em 0.55em;
+  border-radius: 999px;
+  background: var(--news-color);
+  color: #fff;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.news--collapsed .news--more {
+  display: none;
+}
+
+.news__toggle {
+  margin: 0.2em 0 0.4em 0.45em;
+  background: transparent;
+  font: inherit;
+  font-size: 0.8em;
+}
+
+@media (max-width: 600px) {
+  /* phones: month and tag on one line, text below */
+  .news__item {
+    grid-template-columns: auto 1fr;
+    row-gap: 0.15em;
+  }
+
+  .news__text {
+    grid-column: 1 / -1;
+  }
 }

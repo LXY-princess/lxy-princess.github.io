@@ -1,0 +1,44 @@
+{%- comment -%}
+  News timeline for the home page; items come from _data/news.yml.
+  Grouped by year with a colored dot + tag per type (award, paper, talk, milestone).
+  The first `shown` items are visible; "Show all news" reveals the rest.
+  Without JavaScript every item is shown and the button stays hidden.
+  Inline script: block comments only (GitHub Pages compresses the HTML onto one line).
+{%- endcomment -%}
+{%- assign shown = 5 -%}
+{%- assign items = site.data.news | sort: "date" | reverse -%}
+{%- assign by_year = items | group_by_exp: "n", "n.date | date: '%Y'" -%}
+{%- assign idx = 0 -%}
+<div class="news" id="news-timeline">
+{%- for year in by_year %}
+{%- assign first_idx = idx | plus: 1 %}
+<div class="news__year{% if first_idx > shown %} news--more{% endif %}">
+<div class="news__year-label">{{ year.name }}</div>
+<ul class="news__list">
+{%- for n in year.items %}
+{%- assign idx = idx | plus: 1 %}
+<li class="news__item news__item--{{ n.type }}{% if idx > shown %} news--more{% endif %}">
+<span class="news__month">{{ n.date | date: "%b" }}</span>
+<span class="news__tag">{{ n.type | capitalize }}</span>
+<span class="news__text">{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span>
+</li>
+{%- endfor %}
+</ul>
+</div>
+{%- endfor %}
+</div>
+<button type="button" class="paper__btn news__toggle" id="news-toggle" data-total="{{ items.size }}" hidden>Show all news ({{ items.size }})</button>
+<script>
+(function () {
+  var box = document.getElementById("news-timeline"), btn = document.getElementById("news-toggle");
+  if (!box || !btn) return;
+  var total = btn.getAttribute("data-total");
+  function collapse(on) {
+    box.classList.toggle("news--collapsed", on);
+    btn.textContent = on ? "Show all news (" + total + ")" : "Show less";
+  }
+  btn.addEventListener("click", function () { collapse(!box.classList.contains("news--collapsed")); });
+  btn.hidden = false;
+  collapse(true);
+})();
+</script>

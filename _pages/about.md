@@ -26,31 +26,7 @@ Research Interests :book:
 News :newspaper: {#news}
 ======
 
-<div class="news-box" markdown="1">
-
-* <span class="news-date">Nov 2026</span> :trophy: Received the [ICCAD 2026](https://iccad.com/2026) Student Scholar Program Award!
-* <span class="news-date">Nov 2026</span> :microphone: Presented [RZ-Flow](#rz-flow) at [ICCAD'26](https://iccad.com/2026) and two posters ([TransCache](#transcache), [RZ-Flow](#rz-flow)) at [QCAS 2026](https://qcas-workshop.org/qcas2026/index.html) in San Jose
-* <span class="news-date">Oct 2026</span> :tada: One paper accepted at [SoCC'26](https://acmsocc.org/2026/): [TransCache](#transcache)
-* <span class="news-date">Jul 2026</span> :tada: Three papers accepted at [QCE'26](https://qce.quantum.ieee.org/2026/): [Where Atom Loss Lands Matters](#cast), [PriorGuard](#priorguard), [Beyond Legal Spacing](#zonespacing)
-* <span class="news-date">Jul 2026</span> :tada: Two papers accepted at [ICCAD'26](https://iccad.com/2026): [RZ-Flow](#rz-flow), [FALCON](#falcon)
-* <span class="news-date">Jun 2026</span> :tada: One paper accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785): [Quantum Squeeze-and-Excitation Networks](#qse-tqe)
-* <span class="news-date">Sep 2025</span> :tada: One paper accepted at [NeurIPS 2025](https://neurips.cc/): [TITAN](#titan)
-* <span class="news-date">Aug 2025</span> :tada: One paper accepted by [IEEE TAES](https://ieee-aess.org/publications/taes): [SaFe](#safe)
-* <span class="news-date">Jul 2025</span> :tada: Two papers accepted at [QCE'25](https://qce.quantum.ieee.org/2025/): [HCVS-Net](#hcvs), [QWBO](#qwbo)
-* <span class="news-date">Jul 2025</span> :tada: Two papers accepted at [QCE'25](https://qce.quantum.ieee.org/2025/): [Classical Initialization vs. Barren Plateaus](#bpinit), [Breaking Through Barren Plateaus](#bprl)
-* <span class="news-date">Mar 2025</span> :clap: Passed the qualifying exam. I am a PhD Candidate now!
-* <span class="news-date">Jan 2025</span> :tada: One paper accepted at [ICC'25](https://icc2025.ieee-icc.org/): [FiCo](#fico)
-* <span class="news-date">Dec 2024</span> :tada: One paper accepted at [AAAI-25](https://aaai.org/conference/aaai/aaai-25/): [Qsco](#qsco)
-* <span class="news-date">Oct 2024</span> :tada: One paper accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785): [HyQ2](#hyq2)
-* <span class="news-date">Oct 2024</span> :tada: One paper accepted by [IEEE Open Journal of the Communications Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661): [CoCo](#coco)
-* <span class="news-date">Sep 2024</span> :school: Joined Stevens Institute of Technology as a PhD student!
-* <span class="news-date">Aug 2024</span> :tada: Two papers accepted at [QCE'24](https://qce.quantum.ieee.org/2024/): [QRNG-DDPM](#qrng-ddpm), [Quantum Squeeze-and-Excitation Networks](#qse)
-* <span class="news-date">May 2024</span> :mortar_board: Graduated from Duke University!
-* <span class="news-date">Jan 2024</span> :tada: One paper accepted at [CCNC'24](https://ccnc2024.ieee-ccnc.org/): [RAFT](#raft)
-* <span class="news-date">Oct 2023</span> :tada: One paper accepted by [IEEE Access](https://ieeeaccess.ieee.org/): [DEFT](#deft)
-* <span class="news-date">Jul 2023</span> :school: Joined Stevens Institute of Technology as a Summer Research Intern
-
-</div>
+{% include news.html %}
 
 Publications :page_facing_up: {#publications}
 ======
@@ -103,6 +79,6 @@ CV :memo: {#cv}
 * **Reviewer**: IEEE QCE (2025–2026); IEEE/ACM ICCAD (2025); ASP-DAC (2025); ACM Transactions on Quantum Computing (2025–2026); Quantum Machine Intelligence (2025); Internet of Things (2025–2026); Journal of Network and Computer Applications (2024).
 
 <hr>
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=F-lhejoUH_VVl9eW8L4rGS9ahPmLrZ2ZmrYYgEfqytw&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=F-lhejoUH_VVl9eW8L4rGS9ahPmLrZ2ZmrYYgEfqytw&cl=ffffff&w=220"></script>
 
 

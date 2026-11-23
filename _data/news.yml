@@ -1,0 +1,97 @@
+# News timeline on the home page (newest first; the page also sorts by date).
+# type: award | paper | talk | milestone   (sets the colored tag and dot)
+# date: only month and year are shown; the day just keeps the order right.
+# text: one line of Markdown; link papers with their key, e.g. [RZ-Flow](#rz-flow)
+# The first 5 items are shown; the rest appear after "Show all news".
+
+- date: 2026-11-12
+  type: award
+  text: "Received the [ICCAD 2026](https://iccad.com/2026) Student Scholar Program Award!"
+
+- date: 2026-11-11
+  type: talk
+  text: "Presented [RZ-Flow](#rz-flow) at [ICCAD'26](https://iccad.com/2026) and two posters ([TransCache](#transcache), [RZ-Flow](#rz-flow)) at [QCAS 2026](https://qcas-workshop.org/qcas2026/index.html) in San Jose"
+
+- date: 2026-10-07
+  type: paper
+  text: "One paper accepted at [SoCC'26](https://acmsocc.org/2026/): [TransCache](#transcache)"
+
+- date: 2026-07-21
+  type: paper
+  text: "Three papers accepted at [QCE'26](https://qce.quantum.ieee.org/2026/): [Where Atom Loss Lands Matters](#cast), [PriorGuard](#priorguard), [Beyond Legal Spacing](#zonespacing)"
+
+- date: 2026-07-11
+  type: paper
+  text: "Two papers accepted at [ICCAD'26](https://iccad.com/2026): [RZ-Flow](#rz-flow), [FALCON](#falcon)"
+
+- date: 2026-06-17
+  type: paper
+  text: "One paper accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785): [Quantum Squeeze-and-Excitation Networks](#qse-tqe)"
+
+- date: 2025-09-18
+  type: paper
+  text: "One paper accepted at [NeurIPS 2025](https://neurips.cc/): [TITAN](#titan)"
+
+- date: 2025-09-01
+  type: talk
+  text: "Presented [HCVS-Net](#hcvs) and [QWBO](#qwbo) at [IEEE Quantum Week (QCE'25)](https://qce.quantum.ieee.org/2025/) in Albuquerque"
+
+- date: 2025-08-24
+  type: paper
+  text: "One paper accepted by [IEEE TAES](https://ieee-aess.org/publications/taes): [SaFe](#safe)"
+
+- date: 2025-07-21
+  type: paper
+  text: "Two papers accepted at [QCE'25](https://qce.quantum.ieee.org/2025/): [HCVS-Net](#hcvs), [QWBO](#qwbo)"
+
+- date: 2025-07-08
+  type: paper
+  text: "Two papers accepted at [QCE'25](https://qce.quantum.ieee.org/2025/): [Classical Initialization vs. Barren Plateaus](#bpinit), [Breaking Through Barren Plateaus](#bprl)"
+
+- date: 2025-04-16
+  type: talk
+  text: "Gave a seminar talk on [FiCo](#fico) at Stevens Institute of Technology"
+
+- date: 2025-03-12
+  type: milestone
+  text: "Passed the qualifying exam. I am a Ph.D. candidate now!"
+
+- date: 2025-01-17
+  type: paper
+  text: "One paper accepted at [ICC'25](https://icc2025.ieee-icc.org/): [FiCo](#fico)"
+
+- date: 2024-12-09
+  type: paper
+  text: "One paper accepted at [AAAI-25](https://aaai.org/conference/aaai/aaai-25/): [Qsco](#qsco)"
+
+- date: 2024-10-10
+  type: paper
+  text: "One paper accepted by [IEEE Transactions on Quantum Engineering](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8924785): [HyQ2](#hyq2)"
+
+- date: 2024-10-01
+  type: paper
+  text: "One paper accepted by [IEEE Open Journal of the Communications Society](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8782661): [CoCo](#coco)"
+
+- date: 2024-09-01
+  type: milestone
+  text: "Joined Stevens Institute of Technology as a Ph.D. student"
+
+- date: 2024-08-23
+  type: paper
+  text: "Two papers accepted at [QCE'24](https://qce.quantum.ieee.org/2024/): [QRNG-DDPM](#qrng-ddpm), [Quantum Squeeze-and-Excitation Networks](#qse)"
+
+- date: 2024-05-15
+  type: milestone
+  text: "Graduated from Duke University"
+
+- date: 2024-01-01
+  type: paper
+  text: "One paper accepted at [CCNC'24](https://ccnc2024.ieee-ccnc.org/): [RAFT](#raft)"
+
+- date: 2023-10-20
+  type: paper
+  text: "One paper accepted by [IEEE Access](https://ieeeaccess.ieee.org/): [DEFT](#deft)"
+
+- date: 2023-07-01
+  type: milestone
+  text: "Joined Stevens Institute of Technology as a Summer Research Intern"
